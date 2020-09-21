@@ -60,3 +60,9 @@ git push -u origin master
 cd /workspace/fruit; clear
 export LANG=ko_KR.UTF-8;export LANGUAGE=ko_KR.UTF-8;locale-gen;source ~/.profile; [ ! -f ~/.custom_env ] || source ~/.custom_env; clear;
 cd /workspace/fruit; clear
+git init
+git add .
+git commit -m "first commit"
+git push -u origin master
+git remote add origin https://github.com/sookim06/zzzzzzz.git
+git push -u origin master
